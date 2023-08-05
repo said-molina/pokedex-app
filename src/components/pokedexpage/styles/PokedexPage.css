@@ -1,0 +1,128 @@
+.poke__container {
+  display: grid;
+
+}
+
+.poke__header {
+    width: 1440px;
+    height: 195px;
+   
+}
+
+.poke__header-rectangle {
+    width: 1440px;
+    height: 123.18120574951172px;
+    background-color: #FE1936;
+
+}
+
+.poke__header-logo {
+    width: 431px;
+    height: 76px;
+    top: 47px;
+    left: 133px;
+    padding-top: 1.5em;
+
+}
+
+.poke__header-rectangle-2 {
+    width: 1440px;
+    height: 49.70469665527344px;
+    top: 111.2952880859375px;
+    background-color: #0C0C0C;
+
+
+}
+
+.poke__header-circle-2 {
+    position: absolute;
+    top: 105px;
+    left: 1265px;
+    width: 63px;
+    height: 63px;
+    z-index: 3;
+    border-radius: 50%;
+    border: 12px solid;
+    border-color: black;
+    background-color: #212121;
+}
+
+.poke__header-circle {
+    position: absolute;
+    width: 117px;
+    height: 117px;
+    top: 78px;
+    left: 1238px;
+    border-radius: 50%;
+    z-index: 2;
+    border: 12px solid black;
+    background-color: #FFFFFF;
+
+
+}
+
+
+.poke__saludo{
+    
+    padding-top: 1.5em;
+    padding-left: 2.5em;
+    padding-bottom: 1.5em;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.poke__name__trainer {
+    color: #FE1936;
+    text-transform: capitalize;
+
+}
+
+.poke__form__search {
+    padding-top: 1.0em;
+    padding-bottom: 1.5em;
+    padding-left: 3.0em;
+}
+
+.form__input {
+    width: 210.4812774658203px;
+    height: 40px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: medium;
+
+}
+
+.form__btn {
+    width: 210.4812774658203px;
+    height: 40px;
+    top: 275px;
+    left: 595.5341796875px;
+    background-color: #FE1936;
+    font-size: medium;
+    color: white;
+
+}
+
+.poke__list {
+  display: flex;
+  gap: 2.0em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.poke__select {
+    width: 210.4812774658203px;
+    height: 40px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: medium;
+   
+
+}

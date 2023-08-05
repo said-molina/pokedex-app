@@ -1,0 +1,334 @@
+.container__id {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.poke__header {
+    width: 1440px;
+    height: 195px;
+
+
+}
+
+.poke__header-rectangle {
+    width: 1440px;
+    height: 123.18120574951172px;
+    background-color: #FE1936;
+
+}
+
+.poke__header-logo {
+    width: 431px;
+    height: 76px;
+    top: 47px;
+    left: 133px;
+    padding-top: 1.5em;
+
+}
+
+.poke__header-rectangle-2 {
+    width: 1440px;
+    height: 49.70469665527344px;
+    top: 111.2952880859375px;
+    background-color: #0C0C0C;
+
+
+}
+
+.poke__header-circle-2 {
+    position: absolute;
+    top: 105px;
+    left: 1265px;
+    width: 63px;
+    height: 63px;
+    z-index: 3;
+    border-radius: 50%;
+    border: 12px solid;
+    border-color: black;
+    background-color: #212121;
+}
+
+.poke__header-circle {
+    position: absolute;
+    width: 117px;
+    height: 117px;
+    top: 78px;
+    left: 1238px;
+    border-radius: 50%;
+    z-index: 2;
+    border: 12px solid black;
+    background-color: #FFFFFF;
+
+
+}
+
+.pokecard__image__id {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.0em;
+}
+
+.pokecard__id {
+    width: 100%;
+    max-width: 850px;
+    border-radius: 0.7em;
+    border: 0.7em solid #ccc;
+    cursor: pointer;
+    transition: transform 150ms ease;
+    left: 50%;
+    transform: translateX(30%);
+    top: 1.5em;
+}
+
+
+
+.pokecard__body__id {
+    padding: 3.5em 1em 2em;
+}
+
+.pokecard__name__id {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.pokecard__types__id {
+    display: flex;
+    justify-content: center;
+    gap: 0.7em;
+    margin-bottom: 1em;
+}
+
+.pokecard__typename__id {
+    text-transform: capitalize;
+}
+
+.pokecard__typename__id:nth-child(2)::before {
+    content: '/';
+    padding-right: 0.7em;
+}
+
+.pokecard__hr__id {
+    margin-bottom: 1em;
+    border: 1px solid #ccc4;
+}
+
+.pokecard__stats__id {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 1.5em 0.2em;
+}
+
+.pokecard__stat__id {
+    display: grid;
+    gap: 0.5em;
+    justify-items: center;
+}
+
+.pokecard__state__name__id {
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.pokecard__state__value__id {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+
+
+.progres {
+
+    width: 100px;
+    height: 34px;
+    top: 1151px;
+    left: 275px;
+    border-radius: 4px;
+    background: #F6F6F6;
+
+
+}
+
+.progres__bar {
+
+    width: 50px;
+    height: 34px;
+    top: 1151px;
+    left: 275px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+
+
+}
+
+.pokecard__name__move {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.pokecard__move {
+    display: grid;
+    gap: 0.5em;
+    justify-items: center;
+}
+
+.pokecard__move__name__id {
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.pokecard__move__id {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+.normal-gradient {
+    background: linear-gradient(176.37deg, #b97e9a -32.26%, #8f254e 22.55%, #922020 125.72%);
+}
+
+.poison-gradient {
+    background: linear-gradient(176.37deg, #c752d6 -32.26%, #9623d8 22.55%, #8cc4f1 125.72%);
+}
+
+.fire-gradient {
+    background: linear-gradient(176.37deg, #f96d6f -32.26%, #e35825 22.55%, #e8ae1b 125.72%);
+}
+
+.grass-gradient {
+    background: linear-gradient(178.92deg, #7ec6c5 0.92%, #abdac6 47.96%, #cae099 99.08%);
+}
+
+.water-gradient {
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479fb 56.16%, #82b2f1 214.85%);
+}
+
+.psychic-gradient {
+    background: linear-gradient(179.57deg, #f07612 -70.14%, #ecfb14 56.16%, #ebd199 214.85%);
+}
+
+.electric-gradient {
+    background: linear-gradient(179.57deg, #e1f012 -70.14%, #ddc141 56.16%, #ebd199 214.85%);
+}
+
+.ground-gradient {
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+
+}
+
+.fairy-gradient {
+    background: linear-gradient(179.75deg, #d12589 -19.96%, #862f6c 43.67%, #cc5aaf 138.4%);
+}
+
+.bug-gradient {
+    background: linear-gradient(179.75deg, #47d125 -19.96%, #669c20 43.67%, #c7f0bb 138.4%);
+}
+
+.fighting-gradient {
+    background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+
+}
+
+.fighting-border {
+    border-color: #728881;
+}
+
+.fight-color {
+    color: #728881;
+}
+
+.bug-border {
+    border-color: #669c20;
+}
+
+.bug-color {
+    color: #669c20;
+}
+
+.fairy-border {
+    border-color: #cc5aaf;
+}
+
+.fairy-color {
+    color: #cc5aaf;
+}
+
+.ground-border {
+    border-color: #D69638;
+}
+
+.ground-color {
+    color: #D69638;
+}
+
+.electric-border {
+    border-color: #ddc141;
+}
+
+.electric-color {
+    color: #ddc141;
+}
+
+.psychic-border {
+    border-color: #f07612;
+}
+
+.psychic-color {
+    color: #f07612;
+}
+
+.normal-border {
+    border-color: #8f254e;
+}
+
+.normal-color {
+    color: #8f254e;
+}
+
+.poison-border {
+    border-color: #a95de7;
+}
+
+.poison-color {
+    color: #a95de7;
+}
+
+.fire-border {
+    border-color: #e35825;
+}
+
+.fire-color {
+    color: #e35825;
+}
+
+.grass-border {
+    border-color: #b4e64b;
+}
+
+.grass-color {
+    color: #cae099;
+}
+
+.water-border {
+    border-color: #82b2f1;
+}
+
+.water-color {
+    color: #82b2f1;
+}
